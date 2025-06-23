@@ -1,3 +1,5 @@
+# Hawk-Eye
+This tool allows you to search the dark web for specific keywords, fetch relevant .onion links, and crawl them for additional information. It leverages the Tor network to ensure anonymity and privacy while performing searches on onion sites. More actions
 Hawk Eye -  A Dark Web Search Tool
 This tool allows you to search for .onion links on the dark web using a Tor network connection. It uses the Ahmia search engine to find .onion links based on a user-specified keyword. After retrieving the search results, the tool offers the option to crawl the resulting links and save them to a file.
 
@@ -78,3 +80,4 @@ Troubleshooting
 Tor Not Connecting: If you're unable to connect to the Tor network, make sure that the Tor service is running and that the SOCKS5 proxy is configured correctly in FoxyProxy.
 Timeouts: If you're getting timeouts while crawling .onion sites, try increasing the timeout value in the session.get() requests.
 Invalid URLs: If the script skips URLs with the error "Invalid URL skipped", check that the URLs returned by the search engine are properly formatted.
+
