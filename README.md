@@ -50,6 +50,7 @@ You will then be asked if you want to crawl these results to retrieve more detai
 Finally, the script will save all valid URLs to a text file named dark_web_links.txt.
 Example Output:
 Hawk Eye by asim-infomics
+
 =====================
 Testing Tor connection...
 Connected to Tor! Current IP: "Your Tor IP here"
