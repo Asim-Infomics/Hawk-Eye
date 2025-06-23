@@ -21,35 +21,64 @@ Setting Up Tor
 Follow these steps to configure Tor and FoxyProxy:
 
 Step 1: Install Tor
+
 Download and install the Tor software from Tor Project.
+
 Run the Tor service.
+
 Step 2: Install FoxyProxy Extension
+
 Open Firefox.
+
 Go to the FoxyProxy Add-on page and click Add to Firefox.
+
 Click Add when prompted.
+
 Step 3: Configure FoxyProxy
+
 Click on the FoxyProxy icon in Firefox and select Options.
+
 Add a new proxy configuration:
+
 Title: Tor (or any name you prefer).
+
 Proxy Type: SOCKS5.
+
 IP Address: 127.0.0.1.
+
 Port: 9150 (or 9050 if using a different setup).
+
 Enable the option SOCKS v5 Proxy DNS when available.
+
 Save the settings.
+
 Step 4: Test Tor Connection
 Visit https://check.torproject.org to confirm that you are connected to Tor. If the page shows "Congratulations. This browser is configured to use Tor.", you're all set.
+
 Running the Tool
+
 Start the Tor Service: Ensure that Tor is running on your machine.
+
 Configure FoxyProxy: Ensure that the FoxyProxy extension in Firefox is set to use the Tor proxy configuration you created.
+
 Run the Python Script: Execute the Python script to start searching the dark web.
+
 python hawk_eye.py
+
 Interacting with the Tool
+
 Upon running the script, the tool will ask you to input a search keyword to search for on the Tor network.
+
 It will display the search results with .onion links found on Ahmia.
+
 You will then be asked if you want to crawl these results to retrieve more detailed URLs.
+
 Finally, the script will save all valid URLs to a text file named dark_web_links.txt.
+
 Example Output:
+
 Hawk Eye by asim-infomics
+
 
 =====================
 Testing Tor connection...
